@@ -1,8 +1,9 @@
 # 🚀 Spring Boot Learning Project
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![Java](https://img.shields.io/badge/Java-Programmi## 
+[![Java](https://img.shields.io/badge/Java-Programming-orange.svg)](https://www.oracle.com/java/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://www.postgresql.org/)
+
 🛠️ **Technologies Used**
 
 - **Spring Boot** - Application framework
