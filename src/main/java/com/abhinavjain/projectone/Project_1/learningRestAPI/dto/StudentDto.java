@@ -14,7 +14,7 @@ public class StudentDto {
     private String email;
 }
 
-//    Either use this whole or use @Data anotation
+//    Either use this whole or use @Data annotation but not for constructor
 //
 //public StudentDto(Long id, String name, String email) {
 //    this.id = id;
