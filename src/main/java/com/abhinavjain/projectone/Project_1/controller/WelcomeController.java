@@ -40,9 +40,6 @@ public class WelcomeController {
      * @Value annotation injects values from application.properties
      * This demonstrates configuration-driven development
      */
-    @Value("${app.version:1.0.0}")
-    private String appVersion;
-    
     @Value("${app.description:Spring Boot Learning Project}")
     private String appDescription;
     
@@ -62,7 +59,6 @@ public class WelcomeController {
         response.put("message", "🚀 Welcome to Spring Boot Learning Project!");
         response.put("description", "This project demonstrates various Spring Boot concepts");
         response.put("author", appAuthor);
-        response.put("version", appVersion);
         response.put("availableEndpoints", new String[]{
             "GET /hello - Simple hello world",
             "GET /hello/{name} - Personalized greeting", 
@@ -121,10 +117,8 @@ public class WelcomeController {
     public Map<String, Object> appInfo() {
         Map<String, Object> info = new HashMap<>();
         info.put("applicationName", "Spring Boot Learning Project");
-        info.put("version", appVersion);
         info.put("description", appDescription);
         info.put("author", appAuthor);
-        info.put("javaVersion", System.getProperty("java.version"));
         info.put("springBootFeatures", new String[]{
             "Dependency Injection",
             "Auto Configuration", 

@@ -1,7 +1,16 @@
 # 🚀 Spring Boot Learning Project
 
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-Programmi## 🛠️ **Technologies Used**
+
+- **Spring Boot** - Application framework
+- **Spring Web** - REST API development
+- **Spring Data JPA** - Database abstraction
+- **PostgreSQL** - Database
+- **Lombok** - Boilerplate code reduction
+- **ModelMapper** - Object mapping
+- **Jakarta Validation** - Input validation
+- **Maven** - Dependency managementsvg)](https://www.oracle.com/java/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://www.postgresql.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -57,9 +66,9 @@ src/
 ## 🚀 **Quick Start**
 
 ### Prerequisites
-- **Java 21** or higher
-- **Maven 3.6+**
-- **PostgreSQL 12+** (optional - for database features)
+- **Java** (latest recommended)
+- **Maven** (build tool)
+- **PostgreSQL** (optional - for database features)
 - **IDE** (IntelliJ IDEA, Eclipse, or VS Code)
 
 ### 1. Clone the Repository
@@ -72,10 +81,6 @@ cd Springboot-Learning
 ```sql
 -- Create database
 CREATE DATABASE studentDB;
-
--- Update application.properties with your credentials
-spring.datasource.username=your_username
-spring.datasource.password=your_password
 ```
 
 ### 3. Run the Application
@@ -186,26 +191,13 @@ payment.provider=stripe
 ```properties
 # PostgreSQL Configuration
 spring.datasource.url=jdbc:postgresql://localhost:5432/studentDB
-spring.datasource.username=postgres
-spring.datasource.password=password
 
 # JPA Configuration
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
 
-## 🧪 **Testing**
-
-### Run Tests
-```bash
-./mvnw test
-```
-
-### Manual Testing
-1. **Postman Collection** - Import from `/docs/postman_collection.json`
-2. **Swagger UI** - Visit `http://localhost:8080/swagger-ui.html` (when enabled)
-
-## 📖 **Key Learning Resources**
+## � **Key Learning Resources**
 
 ### File-by-File Learning Guide
 
@@ -229,7 +221,7 @@ spring.jpa.show-sql=true
 | `@RequestMapping` | URL mapping | Controller methods |
 | `@Valid` | Input validation | DTO validation |
 
-## 🛠️ **Technologies Used**
+## �🛠️ **Technologies Used**
 
 - **Spring Boot 3.5.6** - Application framework
 - **Spring Web** - REST API development
@@ -239,37 +231,6 @@ spring.jpa.show-sql=true
 - **ModelMapper** - Object mapping
 - **Jakarta Validation** - Input validation
 - **Maven** - Dependency management
-
-## 🤝 **Contributing**
-
-This is a learning project! Contributions are welcome:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Add educational comments to your code
-4. Commit changes (`git commit -m 'Add some amazing feature'`)
-5. Push to branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
-
-### Contribution Guidelines
-- **Educational Focus**: Prioritize learning value over complexity
-- **Comprehensive Comments**: Explain the "why" not just the "what"
-- **Beginner Friendly**: Assume no prior Spring Boot knowledge
-- **Real-world Examples**: Use practical, relatable examples
-
-## 📝 **Next Steps for Learners**
-
-1. **Add Security** - Implement Spring Security
-2. **API Documentation** - Add Swagger/OpenAPI
-3. **Testing** - Write comprehensive unit and integration tests
-4. **Caching** - Implement Redis caching
-5. **Monitoring** - Add Spring Boot Actuator
-6. **Containerization** - Create Docker setup
-7. **Cloud Deployment** - Deploy to AWS/Azure/GCP
-
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 **Author**
 

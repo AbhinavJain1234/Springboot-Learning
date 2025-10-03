@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.abhinavjain.projectone</groupId>
 	<artifactId>Project-1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>Project-1</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -38,7 +37,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.42</version>
             <scope>provided</scope>
         </dependency>
 
