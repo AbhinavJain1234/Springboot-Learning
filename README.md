@@ -1,9 +1,9 @@
 # 🚀 Spring Boot Learning Project
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![Java](https://img.shields.io/badge/Java-Programmi## 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://www.postgresql.org/)
-🛠️ **Technologies Used**
+[![Java](https://img.shields.io/bad```
+
+## 📖 **Key Learning Resources**Java-Programmi## 🛠️ **Technologies Used**
 
 - **Spring Boot** - Application framework
 - **Spring Web** - REST API development
@@ -13,7 +13,8 @@
 - **ModelMapper** - Object mapping
 - **Jakarta Validation** - Input validation
 - **Maven** - Dependency managementsvg)](https://www.oracle.com/java/)
-
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://www.postgresql.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A comprehensive **Spring Boot learning project** designed to help beginners understand fundamental concepts through practical examples and detailed comments. This project covers dependency injection, REST APIs, database integration, and Spring Boot best practices.
 
