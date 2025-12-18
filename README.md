@@ -1,10 +1,10 @@
-# 🚀 Spring Boot Learning Project
+# Spring Boot Learning Project
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Java](https://img.shields.io/badge/Java-Programming-orange.svg)](https://www.oracle.com/java/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://www.postgresql.org/)
 
-🛠️ **Technologies Used**
+**Technologies Used**
 
 - **Spring Boot** - Application framework
 - **Spring Web** - REST API development
@@ -18,7 +18,7 @@
 
 A comprehensive **Spring Boot learning project** designed to help beginners understand fundamental concepts through practical examples and detailed comments. This project covers dependency injection, REST APIs, database integration, and Spring Boot best practices.
 
-## 📚 **What You'll Learn**
+## **What You'll Learn**
 
 ### Core Spring Boot Concepts
 - **Dependency Injection** - Field vs Constructor injection
@@ -40,7 +40,7 @@ A comprehensive **Spring Boot learning project** designed to help beginners unde
 - **Repository Pattern** - Data access abstraction
 - **Database Configuration** - PostgreSQL integration
 
-## 🏗️ **Project Structure**
+## **Project Structure**
 
 ```
 src/
@@ -65,7 +65,7 @@ src/
 └── test/                                        # Unit tests
 ```
 
-## 🚀 **Quick Start**
+## **Quick Start**
 
 ### Prerequisites
 - **Java** (latest recommended)
@@ -106,7 +106,7 @@ curl http://localhost:8080/hello
 curl http://localhost:8080/info
 ```
 
-## 🎯 **Learning Path**
+## **Learning Path**
 
 ### Beginner Level
 1. **Start with WelcomeController** (`/controller/WelcomeController.java`)
@@ -136,7 +136,7 @@ curl http://localhost:8080/info
    - Repository patterns
    - Query methods
 
-## 🌐 **API Endpoints**
+## **API Endpoints**
 
 ### Basic Endpoints
 | Method | Endpoint | Description |
@@ -176,7 +176,7 @@ curl -X POST http://localhost:8080/students \
 curl http://localhost:8080/students
 ```
 
-## ⚙️ **Configuration Examples**
+## **Configuration Examples**
 
 ### Payment Provider Selection
 Switch between payment providers using configuration:
@@ -199,7 +199,7 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
 
-## � **Key Learning Resources**
+## **Key Learning Resources**
 
 ### File-by-File Learning Guide
 
@@ -223,7 +223,7 @@ spring.jpa.show-sql=true
 | `@RequestMapping` | URL mapping | Controller methods |
 | `@Valid` | Input validation | DTO validation |
 
-## �🛠️ **Technologies Used**
+## **Technologies Used**
 
 - **Spring Boot 3.5.6** - Application framework
 - **Spring Web** - REST API development
@@ -234,13 +234,13 @@ spring.jpa.show-sql=true
 - **Jakarta Validation** - Input validation
 - **Maven** - Dependency management
 
-## 👨‍💻 **Author**
+## **Author**
 
 **Abhinav Jain**
 - GitHub: [@AbhinavJain1234](https://github.com/AbhinavJain1234)
 - Project: [Springboot-Learning](https://github.com/AbhinavJain1234/Springboot-Learning)
 
-## 🙏 **Acknowledgments**
+## **Acknowledgments**
 
 - Spring Boot team for the amazing framework
 - Java community for continuous support
